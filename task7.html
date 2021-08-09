@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        h3 {
+            background-color: red;
+            text-align: center;
+        }
+
+        body {
+            padding: 0;
+            height: 70%;
+            width: 60%;
+        }
+
+        input[type=line] {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin:auto;border:2px solid black;width:40%">
+        <form action="">
+            <h3>Yes! I want to subscribe to Mad-O-Zine</h3>
+            <table>
+                <tr>
+                    <td>
+                        <input type="line" id="fname"></input>
+                    </td>
+                    <td>
+                        <input type="line" id="lname"></input><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">First name</label>
+                    </td>
+                    <td>
+                        <label for="lname">Last name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="line" id="address" style="width:330px"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address</label>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <input type="line" id="city" style="width:110px"></input>
+                    </td>
+                    <td>
+                        <input type="line" id="state" style="width:110px"></input>
+                    </td>
+                    <td>
+                        <input type="line" id="zip" style="width:110px"></input><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">city</label>
+                    </td>
+                    <td>
+                        <label for="address">state</label>
+                    </td>
+                    <td>
+                        <label for="address">zip</label><br><br>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <label for="subscribe">Subscribe for:</label>
+            <input type="checkbox" id="1year">
+            <label for="1year">1 year ($19.95)</label>
+            <input type="checkbox" id="2year">
+            <label for="2year">2 years ($35.00)</label><br><br>
+            <label for="info">Send me more information about:</label><br>
+            <input type="checkbox" id="comzine"></input>
+            <label for="comzine">Computer-zine</label><br>
+            <input type="checkbox" id="fishzine"></input>
+            <label for="fishzine">Fishing-zine</label><br>
+            <input type="checkbox" id="catzine"></input>
+            <label for="catzine">Cat-O-zine</label><br>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
